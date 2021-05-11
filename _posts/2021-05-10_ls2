@@ -1,0 +1,53 @@
+## Where do text models currently have a major deficiency?
+
+Text models not good at generating correct responses, it is not reliable, so using text model is a dangerous. Text generation models will always be technologically a bit ahead of models for recognizing automatically generated text. 
+
+Because of this issues, deep learning used not as an entirely process, using this system with human interaction could make better outputs.
+
+## What are possible negative societal implications of text generation models?
+
+Text generation models can be used in troll attacks in socical media to spread disinformation, create unrest etc. Actually it is very good at it.
+
+## In situations where a model might make mistakes, and those mistakes could be harmful, what is good alternative for automating a process?
+
+Similarly what we say in text models, manual process can be use in that situations. 
+
+Manual process; we can run a model in parallel, humans check all predictions.
+
+Limited Scope Deployment (rather than rolling out whole)
+
+-Careful Human Supervision
+
+-Time or geography Limited
+
+Suppose we create a model that detects vehicles exceeding the speed limit. Human can supervise this system and we can geographically limit our scope before the using this model in all country.
+
+## What kind of tabular data is deep learning particularly good at?
+
+Deep learning does greatly increase the variety of colmns that you can include, for example, columns containing natural language and high cardinality categorical columns (discrete choices, such as zip core od product ID)
+
+Take more time to learn in tabular data but libraries such as RAPIDS can solve this problem. 
+
+https://developer.nvidia.com/rapids
+
+## What's a key downside of directly using a deep learning model for recommendations systems?
+
+Recommendations systems very alike tabuldar data. The goal is use the collaborative filtering to fill in the matrix gap in user. Biggest problem is if you buy a apple watch and ipad, and second person buys a apple watch ipad and mug, engine will recommend that mug.
+
+DL models are good at high cardinality categorical variables and they are quite good at it. The problem is that, engine will tell, which product you might like,rather than what recommendations would be helpful for a user.
+
+Imagine you are in the bookstore, the bookseller may suggest you george orwell, but the system will suggest other books by albert camus.
+
+## What are the steps of the Drivetrain Approach?
+
+1 - Defined Objective (What outcome am i trying to achieve)
+
+2 - Levers (What inputs can we control)
+
+3- Data (What inputs can we collect)
+
+4- Models (How they levers influence the objective)
+
+
+
+
